@@ -1,0 +1,10 @@
+.cart-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-row {
+    border-bottom: solid 1px #fff;
+    padding: 10px;
+}

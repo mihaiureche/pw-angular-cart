@@ -1,0 +1,18 @@
+<div class="cart-content">
+    <table width="70%">
+        <thead>
+            <tr>
+                <td class="cart-row">Title</td>
+                <td class="cart-row">Image</td>
+                <td class="cart-row">Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of cart.products">
+                <td class="cart-row">{{product.title}}</td>
+                <td class="cart-row"><img src={{product.image}} width="200" alt={{product.title}} /></td>
+                <td class="cart-row">{{product.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
